@@ -7,7 +7,7 @@ int enA = PB14;
 int in1 = PB13;
 int in2 = PB12;
 const int buttonPin = PB9; 
-const int ledPin = 13;   
+const int ledPin = PB6;   
 
 bool closed = 0;
 int buttonState = 0; 

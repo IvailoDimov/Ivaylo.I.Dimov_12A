@@ -4,7 +4,7 @@
 #define ACCEL_THRESHOLD 5.0
 Adafruit_ADXL345_Unified accel = Adafruit_ADXL345_Unified(12345);
 SoftwareSerial SIM900A(PA9,PA10.);
-int shocksensor=8;              
+int shocksensor=PB9;              
 int sensorvalue; 
 boolean connected = false;      
 void setup()

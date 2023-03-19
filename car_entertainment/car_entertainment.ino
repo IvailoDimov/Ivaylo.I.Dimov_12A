@@ -1,12 +1,12 @@
 #include <DallasTemperature.h>
 #include <OneWire.h>
 #include <LiquidCrystal_I2C.h>
-#define ONE_WIRE_BUS_1 12
-#define ONE_WIRE_BUS_2 11
-int enA = 9;
-int in1 = 8;
-int in2 = 7;
-const int buttonPin = 2; 
+#define ONE_WIRE_BUS_1 PB3
+#define ONE_WIRE_BUS_2 PB4
+int enA = PB14;
+int in1 = PB13;
+int in2 = PB12;
+const int buttonPin = PB9; 
 const int ledPin = 13;   
 
 bool closed = 0;
